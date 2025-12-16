@@ -1,0 +1,16 @@
+# Core
+fastapi==0.111.0
+uvicorn[standard]==0.30.3
+python-dotenv==1.0.1
+python-multipart==0.0.9
+
+# Settings/validation
+pydantic[email]==2.8.2
+pydantic-settings==2.4.0
+
+# Azure OpenAI client
+openai==1.54.0
+
+# Dev (optional)
+ruff==0.6.8
+mypy==1.13.0
